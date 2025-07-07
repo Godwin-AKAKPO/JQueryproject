@@ -30,6 +30,69 @@ header h1 {
 }
 #main-menu ul li
 {
-    
-}
 
+}
+.bw
+{
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    opacity: 0.7;
+    background: url('images/12.2 bw-image.jpg.jpg') no-repeat;
+}
+.color
+{
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    background: url('images/12.1 color-image.jpg.jpg') no-repeat;
+}
+#part2 div
+{
+    background-position: -140px 0px;
+}
+#part3 div
+{
+    background-position: -280px 0px;
+}
+#part4 div
+{
+    background-position: -420px 0px;
+}
+#part5 div
+{
+    background-position: -560px 0px;
+}
+.description
+{
+    width: 240px;
+    height: 460px;
+    padding: 20px;
+    background:#fff;
+}
+.description h2
+{
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+}
+.description h3
+{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 26px;
+    background: #d70000;
+    color: #fff;
+    text-align: center;
+    text-shadow : 1px 1px 1px 1000;
+    border-radius: 5px
+}
+.description p 
+{
+    padding-top: 35px;
+    font-size: 22px;
+    color: #000;
+    text-align: center;
+}
