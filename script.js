@@ -67,3 +67,28 @@ $(function(){ // Fonction principale qui s'exécute quand le document HTML est c
     
     init(); // Lance l'initialisation du menu au chargement
 });
+// Les concepts essentiels de jQuery à retenir:
+
+// 1. Sélection d'éléments - jQuery simplifie la sélection d'éléments DOM
+//    Ex: $('#id'), $('.class'), $('tag'), $('parent > enfant')
+
+// 2. Manipulation du DOM - Modification facile de la structure et du contenu
+//    Ex: .html(), .text(), .append(), .prepend(), .remove()
+
+// 3. Gestion des événements - Attachement simplifié des gestionnaires d'événements
+//    Ex: .click(), .hover(), .on('event', handler)
+
+// 4. Animations et effets - Création simple d'animations fluides
+//    Ex: .animate(), .fadeIn(), .fadeOut(), .slideDown(), .slideUp()
+
+// 5. Méthodes d'itération - Traitement des collections d'éléments
+//    Ex: .each(), .map()
+
+// 6. Méthodes utilitaires - Fonctions pratiques pour différentes tâches
+//    Ex: $.ajax(), $.extend(), $.trim()
+
+// 7. Chaînage de méthodes - Combinaison de plusieurs opérations sur les mêmes éléments
+//    Ex: $('#element').addClass('active').fadeIn().text('Nouveau texte')
+
+// 8. Gestion de la ready state - $(function() {}) ou $(document).ready()
+//    Exécution du code une fois que le DOM est complètement chargé
