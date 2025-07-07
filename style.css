@@ -31,10 +31,16 @@ header h1 {
 }
 #main-menu ul li
 {
-
+    float: left;
+    width: 140px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
 }
 .bw
 {
+    position: absolute;
+    left: 0px; 
     width: 140px;
     height: 500px;
     cursor: pointer;
@@ -43,6 +49,8 @@ header h1 {
 }
 .color
 {
+    position: absolute;
+    left: 140px; 
     width: 140px;
     height: 500px;
     cursor: pointer;
@@ -66,13 +74,16 @@ header h1 {
 }
 .description
 {
+    position: absolute;
     width: 240px;
     height: 460px;
+    left: 140px;
     padding: 20px;
     background:#fff;
 }
 .description h2
 {
+    
     padding-top: 20px;
     font-size: 30px;
     text-align: center;
