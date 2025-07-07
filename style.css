@@ -112,3 +112,42 @@ header h1 {
     font-family: "Lobster", sans-serif;
 }
 
+/* Boutons-menu */
+#buttons-menu 
+{
+    float:left;
+    width: 100%;
+    padding: 170px 0 50px 0;
+}
+#buttons-menu ul
+{
+    float:left;
+    position: relative;
+    left: 50%;
+    text-align: center;
+}
+.button{
+    float: left;
+    width: 150px;
+    margin-left: 30px;
+    padding: 10px 0;
+    position:relative;
+    right: 50%;
+    text-shadow: 1px 1px 1px #000;
+    font-family: 'Lobster', sans-serif;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,75);
+    background: #333;
+    border: 2px solid #b70000;
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.button:hover{
+    background: #b70000;
+    border:2px solid #333;
+    font-size: 24px;
+}
