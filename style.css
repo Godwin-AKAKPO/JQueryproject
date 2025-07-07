@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    background: #bfbfbf url('images/back.jpg') repeat-x;
+    font-family: Arial, sans-serif;
+}
+header{
+    padding: 30px 0;
+}
+header h1 {
+    font-size:40px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+}
+
+/* Main menu */
+#main-menu ul
+{
+    width:980px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 148px;
+}
+#main-menu ul li
+{
+    
+}
+
